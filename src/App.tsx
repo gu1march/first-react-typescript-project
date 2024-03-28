@@ -11,7 +11,8 @@ function App({items, heading}: Props) {
 
 
   return (
-  <div>
+  <div className='table3'>
+    <ListGroup items={items} heading={heading}/>
     <ListGroup items={items} heading={heading}/>
   </div>);
 }
