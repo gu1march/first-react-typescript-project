@@ -31,6 +31,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ListGroup_P items={["New York", "San Francisco", "Tokyo", "London", "Paris"]} heading='cities3' texts={['0','1','2','3','4']} />
+    <ListGroup_P items={["New York", "San Francisco", "Tokyo", "London", "Paris"]} heading='cities3' texts={['0','1','2','3']} />
   </React.StrictMode>,
 )
