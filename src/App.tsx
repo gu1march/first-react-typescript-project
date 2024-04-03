@@ -8,10 +8,8 @@ interface Props {
 
 function App({items, heading}: Props) {
   
-
-
   return (
-  <div className='table3'>
+  <div>
     <ListGroup items={items} heading={heading}/>
     <ListGroup items={items} heading={heading}/>
   </div>);
