@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import ListGroup_P from './components/ListGroup.tsx'
+// import ListGroup_P from './components/ListGroup.tsx'
+import Header from './components/Header.tsx'
 import './index.css'
+import Footer from './components/Footer.tsx'
 
 // const router = createBrowserRouter([
 //   {
@@ -29,8 +31,14 @@ import './index.css'
 //   </React.StrictMode>,
 // )
 
+ReactDOM.createRoot(document.getElementById('title')!).render(
+  <React.StrictMode>
+    <Header pages={["index", "About", "Home", "Test", "Dev", "Prod", "Contacts"]} />
+  </React.StrictMode>,
+)
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ListGroup_P items={["New York", "San Francisco", "Tokyo", "London", "Paris"]} heading='cities3' texts={['0','1','2','3']} />
+    <Footer apps={["#Facebook","#Twitter","#Bootstrap"]} />
   </React.StrictMode>,
 )
