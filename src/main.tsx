@@ -31,14 +31,8 @@ import Footer from './components/Footer.tsx'
 //   </React.StrictMode>,
 // )
 
-ReactDOM.createRoot(document.getElementById('title')!).render(
-  <React.StrictMode>
-    <Header pages={["index", "About", "Home", "Test", "Dev", "Prod", "Contacts"]} />
-  </React.StrictMode>,
-)
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Footer apps={["#Facebook","#Twitter","#Bootstrap"]} />
+    <Footer path_apps={["#Facebook","#Twitter","#Bootstrap"]} path_img={["./Facebook","./Twitter","./Bootstrap"]}/>
   </React.StrictMode>,
 )
