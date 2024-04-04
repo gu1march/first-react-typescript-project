@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import './index.css'
 // import ListGroup_P from './components/ListGroup.tsx'
 import Header from './components/Header.tsx'
-import './index.css'
 import Footer from './components/Footer.tsx'
+import Subheader from './components/Badges.tsx'
 
 // const router = createBrowserRouter([
 //   {
@@ -31,8 +32,9 @@ import Footer from './components/Footer.tsx'
 //   </React.StrictMode>,
 // )
 
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Footer path_apps={["#Facebook","#Twitter","#Bootstrap"]} path_img={["./Facebook","./Twitter","./Bootstrap"]}/>
+    <Subheader name_app={["HTML","JavaScript","TypeScript"]} path_img={["../html.png","../js.png","../ts.jpg"]} />
   </React.StrictMode>,
 )

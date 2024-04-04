@@ -25,3 +25,5 @@ export default function Footer({ path_apps, path_img }: Props) {
     </div>
   );
 }
+
+
