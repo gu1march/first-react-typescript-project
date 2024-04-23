@@ -52,3 +52,7 @@ use {
 .badge {
     padding-bottom: 3rem;
 }
+
+p {
+    width: 80%;
+}
