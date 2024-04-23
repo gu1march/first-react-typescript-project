@@ -32,3 +32,7 @@ use {
     background-color: black;
     font-style: italic;
 }
+
+#sitelogo {
+    border-radius: 5px;
+}
