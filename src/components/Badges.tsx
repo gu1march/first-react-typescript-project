@@ -21,7 +21,7 @@ function RandomNumber() {
 
 export default function Subheader({ name_app, path_img }: Props) {
   return (
-    <div className="d-flex gap-2 justify-content-center py-5">
+    <div className="d-flex gap-2 justify-content-center badge">
       {name_app.map((item, index) => (
         <span className={class1 + colors_badges[RandomNumber()]}>
           <img
