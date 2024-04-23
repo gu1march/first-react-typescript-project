@@ -36,3 +36,10 @@ use {
 #sitelogo {
     border-radius: 5px;
 }
+.container {
+    position:absolute;
+	bottom:0;
+    margin: 0px;
+    margin-top: 30px;
+    max-width: none;
+}
