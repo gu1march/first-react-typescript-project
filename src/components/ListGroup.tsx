@@ -37,7 +37,7 @@ interface Props {
 // }
 
 function ListGroup_P({ heading, items, texts }: Props) {
-  const [selectedIndex, setSelectedIndex] = useState(-1);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
     <div className="mycard">

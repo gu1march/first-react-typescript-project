@@ -22,7 +22,6 @@
 .navbar {
 	top:0;
     margin: 0px;
-    margin-bottom: 30px;
 }
 
 .navbar-brand {
@@ -42,17 +41,132 @@ use {
     border-radius: 5px;
 }
 .container {
-    position:absolute;
+    position:relative;
 	bottom:0;
     margin: 0px;
     margin-top: 30px;
     max-width: none;
+    background-color: white;
 }
 
 .badge {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 p {
     width: 80%;
+}
+
+.tet {
+    display: flex;
+    flex-direction: column;
+    width: 1912px;
+    height: auto;
+}
+
+.port {
+    position: fixed;
+    z-index: -1;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.img_me {
+    max-width: 100%;
+    height: 600px;
+    width: 650px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.img_h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact_img {
+    width: 100%;
+    height: 593px;
+}
+
+.contact_div {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contact_h1 {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+}
+
+.contact_p {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p_icons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.p_con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 19px;
+}
+
+.p_con2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+.p_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.contact_imgs {
+    width: 256px;
+    height: auto;
+}
+
+.card_imgs {
+    width: 288px;
+    height: 512px;
+}
+
+.home_card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 15px 10px 0px;
+    column-gap: 10px;
+    row-gap: 15px;
 }
