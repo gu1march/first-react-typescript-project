@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    width: 50%;
 }
 
 .nav-item {
@@ -69,6 +70,11 @@ p {
     z-index: -1;
 }
 
+.sma {
+    width: auto;
+    margin-bottom: 30px;
+}
+
 h1 {
     display: flex;
     align-items: center;
@@ -79,7 +85,7 @@ h1 {
 .img_me {
     max-width: 100%;
     height: 600px;
-    width: 650px;
+    width: 60%;
     border-radius: 15px;
     margin-top: 20px;
 }
@@ -95,7 +101,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .contact_img {
@@ -145,21 +151,36 @@ h1 {
     margin-top: 12px;
 }
 
+.p_con3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.p_list {
+    font-size: 18px;
+}
+
 .p_icon {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    margin-bottom: 25px;
 }
 
 .contact_imgs {
-    width: 256px;
+    width: 45px;
     height: auto;
 }
 
 .card_imgs {
-    width: 288px;
+    width: 100%;
     height: 512px;
+    border-radius: 7px;
 }
 
 .home_card {
@@ -169,4 +190,27 @@ h1 {
     margin: 15px 10px 0px;
     column-gap: 10px;
     row-gap: 15px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.middle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 70%;
+}
+
+.zoom:hover {
+    padding: 5px;
+    transform: scale(1.03); 
+    transition: 0.5s;
+    margin: auto;
 }

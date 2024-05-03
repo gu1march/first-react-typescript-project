@@ -62,7 +62,7 @@ function ListGroup_P({ heading, items, texts }: Props) {
           ))}
         </ul>
       </div>
-      <p>{selectedIndex > texts.length ? "" : texts[selectedIndex]}</p>
+      <p className="p_list">{selectedIndex > texts.length ? "" : texts[selectedIndex]}</p>
     </div>
   );
 }

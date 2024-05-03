@@ -10,6 +10,14 @@ import Root from "./routes/Root.tsx";
 
 const router = createBrowserRouter([
   {
+    path: '/index.html',
+    element: <Root />, 
+  }, 
+  {
+    path: '/',
+    element: <Root />, 
+  },
+  {
     path: '/Home',
     element: <Root />, 
   },

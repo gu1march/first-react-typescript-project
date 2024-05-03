@@ -1,3 +1,4 @@
+import Badges from "../components/Badges.tsx";
 import Subheader from "../components/Badges.tsx";
 import ListGroup_P from "../components/ListGroup.tsx";
 import SubHeader from "../components/Subheader.tsx";
@@ -5,34 +6,33 @@ import SubHeader from "../components/Subheader.tsx";
 export default function About() {
   return (
     <>
-      <SubHeader page_name="ABOUT" src_img="../imgs/about_wallpaper.png" />
-
-      <Subheader
-        name_app={[
-          "HTML",
-          "CSS",
-          "Bootstrap",
-          "JavaScript",
-          "React",
-          "TypeScript",
-          "Github",
-          "Python",
-        ]}
-        path_img={[
-          "../imgs/badges/html.png",
-          "../imgs/badges/css.png",
-          "../imgs/badges/bootstrap.png",
-          "../imgs/badges/js.png",
-          "../imgs/badges/react.png",
-          "../imgs/badges/ts.jpg",
-          "../imgs/badges/github.png",
-          "../imgs/badges/python.png",
-        ]}
-      />
+      <SubHeader page_name="ABOUT" src_img="../../imgs/backiee-263101.jpg" />
 
       <div className="img_h3">
-        <img className="img_me" src="../imgs/about_page_knowledge.png" />
+        <img className="img_me" src="../imgs/about_page_knowledge3.png" />
       </div>
+      <div className="p_con3">
+          <p>
+            Hey there, I'm Guilherme, a Junior Front-End Developer passionate
+            about bringing digital ideas to life through captivating user
+            experiences. Here in my portfolio, I'm excited to share with you the
+            projects and designs that reflect my journey and expertise in web
+            development. With a knack for blending design aesthetics with
+            technical functionality, I thrive on creating seamless,
+            user-friendly interfaces that leave a lasting impression. From
+            responsive layouts to interactive elements, each project showcases
+            my dedication to craftsmanship and attention to detail. Driven by a
+            curiosity to explore new technologies and a commitment to continuous
+            improvement, I'm always seeking to expand my skill set and push the
+            boundaries of what's possible in web development. Whether you're
+            here to explore my work, discuss collaboration opportunities, or
+            simply chat about the latest trends in front-end development, I'm
+            thrilled to have you along for the ride. Thanks for stopping by my
+            Portfolio. Let's build something extraordinary together!
+          </p>
+        </div>
+
+
 
       <div className="lists">
         <ListGroup_P

@@ -19,7 +19,7 @@ function RandomNumber() {
   return Math.floor(Math.random() * (6 - 0 + 1)) + 0;
 }
 
-export default function Subheader({ name_app, path_img }: Props) {
+export default function Badges({ name_app, path_img }: Props) {
   return (
     <div className="d-flex gap-2 justify-content-center badge">
       {name_app.map((item, index) => (
