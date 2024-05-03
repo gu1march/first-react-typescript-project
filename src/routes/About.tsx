@@ -1,5 +1,3 @@
-import Badges from "../components/Badges.tsx";
-import Subheader from "../components/Badges.tsx";
 import ListGroup_P from "../components/ListGroup.tsx";
 import SubHeader from "../components/Subheader.tsx";
 

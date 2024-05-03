@@ -1,6 +1,3 @@
-import Paragraph from "../components/Paragraph";
-import SubHeader from "../components/Subheader";
-import { useState } from "react";
 
 export default function Root() {
 
